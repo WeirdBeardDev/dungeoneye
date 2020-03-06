@@ -906,6 +906,7 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="data\savegame.xml" />
+    <Content Include="GameIcon.ico" />
     <EmbeddedResource Include="Forms\data\editor.png" />
     <EmbeddedResource Include="Forms\DiceControl.resx">
       <DependentUpon>DiceControl.cs</DependentUpon>
