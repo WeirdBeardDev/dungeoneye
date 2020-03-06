@@ -898,6 +898,7 @@
     </Compile>
     <Compile Include="Game\SquareActor\Teleporter.cs" />
     <Compile Include="Game\DecorationSet.cs" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="credits.txt" />
