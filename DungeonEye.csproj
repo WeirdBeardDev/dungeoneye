@@ -102,8 +102,7 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>
-    </ApplicationIcon>
+    <ApplicationIcon>data\GameIcon.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject>DungeonEye.Game</StartupObject>
@@ -880,7 +879,9 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="app.config" />
-    <None Include="data\Game.bnk" />
+    <Content Include="data\Game.bnk">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="OpenTK.dll.config" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -902,11 +903,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="credits.txt" />
+    <Content Include="data\GameIcon.ico" />
     <Content Include="data\settings.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="data\savegame.xml" />
-    <Content Include="GameIcon.ico" />
     <EmbeddedResource Include="Forms\data\editor.png" />
     <EmbeddedResource Include="Forms\DiceControl.resx">
       <DependentUpon>DiceControl.cs</DependentUpon>
